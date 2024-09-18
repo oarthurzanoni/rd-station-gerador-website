@@ -10,7 +10,7 @@ interface CardProps {
 
 export function Card({ name, phone, email }: CardProps) {
   return (
-    <div className="flex justify-center gap-5 py-8 px-8 xl:px-[72px] bg-white rounded-3xl xl:min-h-[247px]">
+    <div className="flex justify-center gap-4 xl:gap-5 py-8 px-8 xl:px-[72px] bg-white rounded-3xl xl:min-h-[247px]">
       <Image
         src={RDStationSymbol}
         height={60}
@@ -26,7 +26,7 @@ export function Card({ name, phone, email }: CardProps) {
         className="block xl:hidden"
       />
       <div className="border-l-[3px] bg-rd-primary-200" />
-      <div className="flex justify-center flex-col gap-6 text-black w-full">
+      <div className="flex justify-center flex-col gap-3 xl:gap-6 text-black w-full">
         <p>{name ?? "Nome e Sobrenome"}</p>
         <p>{phone ? formatPhone(phone) : "(00) 0 0000-000"}</p>
         <p>{email ?? "meuemail@email.com"}</p>
