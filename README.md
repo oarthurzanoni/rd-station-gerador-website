@@ -11,6 +11,7 @@ Welcome to the **Business Card Generator** by Resultados Digitais! This applicat
 - [How to Use](#how-to-use)
 - [LightHouse Results](#lighthouse-results)
 - [License](#license)
+- [Additional Notes](#additional-notes)
 
 ## Overview
 
@@ -83,4 +84,9 @@ To run the application locally, follow these steps:
 
 
 ## License
+
 This project is licensed under the MIT License.
+
+## Additional Notes
+
+Due to the two-day delivery deadline and the fact that API development was not specified in the technical document, I opted not to implement unit and end-to-end tests for the frontend or develop a separate API. This decision was made to ensure that the project could be delivered as quickly as possible. If more time were available, I would have included these elements to further enhance the project's robustness.
