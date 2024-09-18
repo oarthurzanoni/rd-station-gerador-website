@@ -84,7 +84,7 @@ export default function CardPage({ searchParams }: CardPageProps) {
                   <Button
                     text="fazer um teste grátis do RD Station Marketing"
                     color="transparent"
-                    className="text-sm"
+                    className="text-sm w-fit"
                     iconRight={
                       <Image
                         src={ArrowRightWhite}

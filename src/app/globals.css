@@ -47,8 +47,8 @@ body {
     display: block;
     position: absolute;
     top: calc(100%);
-    left: calc(0%);
-    width: calc(100%);
+    left: calc(0% - 1px);
+    width: calc(100% + (2 * 1px));
     border-top: 4px solid #000;
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;

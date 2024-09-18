@@ -1,16 +1,12 @@
 import React, { ComponentProps } from "react";
 import { tv, VariantProps } from "tailwind-variants";
 
-const buttonRootClassName = tv({
-  base: "relative cursor-pointer disabled:cursor-not-allowed group",
-});
-
 const buttonClassName = tv({
-  base: "button-shadow flex items-center justify-center gap-2 text-base transition-colors font-bold py-2 px-4 uppercase",
+  base: "relative cursor-pointer button-shadow disabled:button-shadow-disabled flex items-center justify-center gap-2 text-base transition-colors font-bold py-2 px-4 uppercase",
   variants: {
     color: {
       primary:
-        "group-disabled:button-shadow-disabled group-disabled:bg-rd-gray-200 group-disabled:text-rd-gray-600 bg-rd-secondary-500 border border-black text-black group-hover:bg-rd-secondary-400 group-hover:border-rd-secondary-400 group-disabled:border-none",
+        "disabled:cursor-not-allowed  disabled:bg-rd-gray-200 disabled:text-rd-gray-600 bg-rd-secondary-500 border border-black text-black hover:bg-rd-secondary-400 hover:border-rd-secondary-400 disabled:border-none",
       transparent: "text-white button-shadow-transparent",
     },
   },
@@ -35,12 +31,10 @@ export function Button({
   ...props
 }: buttonProps) {
   return (
-    <button className={buttonRootClassName({})} {...props}>
-      <div className={buttonClassName({ className, color })}>
-        {iconLeft}
-        <span>{text}</span>
-        {iconRight}
-      </div>
+    <button className={buttonClassName({ className, color })} {...props}>
+      {iconLeft}
+      <span>{text}</span>
+      {iconRight}
     </button>
   );
 }
