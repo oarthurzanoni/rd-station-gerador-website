@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+
+:root {
+  --font-nunito-sans-regular: "Nunito Sans", sans-serif;
+  --font-nunito-sans-bold: "Nunito Sans Bold", sans-serif;
+  --darker-grotesque-extra-bold: "DarkGrotesque ExtraBold", sans-serif;
+  --darker-grotesque-black: "DarkGrotesque Black", sans-serif;
+}
+
+body {
+  font-family: var(--font-nunito-sans-regular);
+}
+
+@layer utilities {
+  .font-nunito-sans-regular {
+    font-family: var(--font-nunito-sans-regular);
+  }
+
+  .font-nunito-sans-bold {
+    font-family: var(--font-nunito-sans-bold);
+  }
+
+  .font-darker-grotesque-extra-bold {
+    font-family: var(--font-darker-grotesque-extra-bold);
+  }
+
+  .font-darker-grotesque-black {
+    font-family: var(--font-darker-grotesque-black);
+  }
+
+  .no-spinner {
+    -moz-appearance: textfield;
+  }
+
+  .no-spinner::-webkit-inner-spin-button,
+  .no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
