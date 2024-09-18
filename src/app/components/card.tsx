@@ -1,3 +1,4 @@
+import { formatPhone } from "@/app/utils/format-phone";
 import RDStationSymbol from "@/public/images/symbols/symbol-rd-station-default.svg";
 import Image from "next/image";
 
@@ -27,7 +28,7 @@ export function Card({ name, phone, email }: CardProps) {
       <div className="border-l-[3px] bg-rd-primary-200" />
       <div className="flex justify-center flex-col gap-6 text-black w-full">
         <p>{name ?? "Nome e Sobrenome"}</p>
-        <p>{phone ?? "(00) 0 0000-000"}</p>
+        <p>{phone ? formatPhone(phone) : "(00) 0 0000-000"}</p>
         <p>{email ?? "meuemail@email.com"}</p>
       </div>
     </div>
