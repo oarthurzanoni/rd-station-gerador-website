@@ -41,4 +41,26 @@ body {
     -webkit-appearance: none;
     margin: 0;
   }
+
+  .button-shadow::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100%);
+    left: calc(0%);
+    width: calc(100%);
+    border-top: 4px solid #000;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0;
+    box-sizing: border-box;
+  }
+
+  .button-shadow-disabled::after {
+    border-top: 4px solid #97a1ac;
+  }
+
+  .button-shadow-transparent::after {
+    border-top: 4px solid transparent;
+  }
 }
