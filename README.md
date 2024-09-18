@@ -9,14 +9,12 @@ Welcome to the **Business Card Generator** by Resultados Digitais! This applicat
 - [Technologies Used](#technologies-used)
 - [Installation and Running](#installation-and-running)
 - [How to Use](#how-to-use)
-- [Important Link](#important-link)
-- [Contributing](#contributing)
+- [LightHouse Results](#lighthouse-results)
 - [License](#license)
 
 ## Overview
 
 The application has two main pages:
-
 1. **Form**: Where users fill in required fields to generate their business card.
 2. **Result**: Where users view the generated card and can interact with download and return options.
 
@@ -49,40 +47,40 @@ The application has two main pages:
 To run the application locally, follow these steps:
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/oarthurzanoni/rd-station-generator-website.git
    ```
 
 2. Navigate to the project directory:
-
    ```bash
    cd rd-station-generator-website
-   ```
+    ```
 
 3. Install dependencies:
-
    ```bash
    npm install
    ```
 
 4. Start the development server:
-   ```bash
-   npm run dev
-   ```
+    ```bash
+    npm run dev
+    ```
+    
 5. Open your browser and go to http://localhost:3000.
 
 ## How to Use
-
 1. **Fill out the form** on the first page with Name, Email, and Phone.
 2. **Proceed** to view the generated business card.
 3. Use the **return button** to clear the fields and go back to the home page.
 4. The **download button** is disabled and has no actions.
 5. Click on the **link** to “try RD Station Marketing for free” to be redirected to a new tab.
 
-License
-This project is licensed under the MIT License.
+
+## LightHouse Results
+
+- [Mobile](https://pagespeed.web.dev/analysis/https-rd-station-gerador-website-vercel-app/ik9e7cgf8s?form_factor=mobile&category=performance&category=accessibility&category=best-practices&category=seo&hl=pt&utm_source=lh-chrome-ext)
+- [Desktop](https://pagespeed.web.dev/analysis/https-rd-station-gerador-website-vercel-app/hjuc43bog7?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=pt&utm_source=lh-chrome-ext)
+
 
 ## License
-
 This project is licensed under the MIT License.
