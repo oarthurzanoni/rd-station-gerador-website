@@ -79,8 +79,8 @@ To run the application locally, follow these steps:
 
 ## LightHouse Results
 
-- [Mobile](https://pagespeed.web.dev/analysis/https-rd-station-gerador-website-vercel-app/ik9e7cgf8s?form_factor=mobile&category=performance&category=accessibility&category=best-practices&category=seo&hl=pt&utm_source=lh-chrome-ext)
-- [Desktop](https://pagespeed.web.dev/analysis/https-rd-station-gerador-website-vercel-app/hjuc43bog7?form_factor=desktop&category=performance&category=accessibility&category=best-practices&category=seo&hl=pt&utm_source=lh-chrome-ext)
+- [Mobile](https://pagespeed.web.dev/analysis/https-rd-station-gerador-website-vercel-app/0wass5lnk4?hl=pt&form_factor=mobile)
+- [Desktop](https://pagespeed.web.dev/analysis/https-rd-station-gerador-website-vercel-app/0wass5lnk4?hl=pt&form_factor=desktop)
 
 
 ## License
