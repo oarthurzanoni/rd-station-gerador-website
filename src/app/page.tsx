@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col gap-11 items-center justify-center w-full py-[54px] xl:py-6">
           <div className="flex flex-col gap-4 text-center max-w-[560px]">
             <h1 className="font-darker-grotesque-extra-bold text-xl xl:text-4xl">
-              Gerador de Cartão de Visita Digital Grátis
+              Gerador de Cartão de Visita Digital
             </h1>
             <h2 className="text-base">
               Crie grátis seu cartão de visita em passos rápidos! Você o insere
