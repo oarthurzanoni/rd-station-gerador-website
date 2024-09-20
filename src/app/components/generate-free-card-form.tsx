@@ -65,6 +65,7 @@ export function GenerateFreeCardForm() {
       <FormProvider {...subscribe}>
         <fieldset className="flex flex-col gap-6 w-full">
           <Input
+            id="name"
             name="name"
             required
             label="Nome"
@@ -73,6 +74,7 @@ export function GenerateFreeCardForm() {
           />
           <div className="flex flex-col xl:flex-row items-center justify-between gap-6 w-full">
             <Input
+              id="phone"
               name="phone"
               required
               label="Telefone"
@@ -83,6 +85,7 @@ export function GenerateFreeCardForm() {
               value={watch("phone")}
             />
             <Input
+              id="email"
               name="email"
               required
               label="E-mail"
