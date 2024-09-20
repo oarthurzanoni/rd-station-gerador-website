@@ -65,6 +65,7 @@ export default function CardPage({ searchParams }: CardPageProps) {
                 <Card name={name} phone={phone} email={email} />
                 <Button
                   disabled
+                  role="button"
                   text="Baixar Cartão"
                   iconLeft={
                     <Image
@@ -80,6 +81,7 @@ export default function CardPage({ searchParams }: CardPageProps) {
                   className="w-full flex items-center justify-center"
                   target="_blank"
                   rel="noopener noreferrer"
+                  role="button"
                 >
                   <Button
                     text="fazer um teste grátis do RD Station Marketing"

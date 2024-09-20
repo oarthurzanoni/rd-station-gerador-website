@@ -28,7 +28,15 @@ const darkerGrotesqueExtraBold = localFont({
 
 export const metadata: Metadata = {
   title: "RD Station - Gerador de Cartão de Visita do Resultados Digitais",
-  description: "Gerador de Cartão de Visita do Resultados Digitais",
+  description:
+    "Crie gratuitamente seu cartão de visita com o Gerador de Cartão de Visita do Resultados Digitais.",
+  openGraph: {
+    title: "RD Station - Gerador de Cartão de Visita",
+    description:
+      "Crie gratuitamente seu cartão de visita com o Gerador de Cartão de Visita do Resultados Digitais.",
+    url: "https://rd-station-gerador-website.vercel.app/",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

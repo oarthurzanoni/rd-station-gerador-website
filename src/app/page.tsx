@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col gap-11 items-center justify-center w-full py-[54px] xl:py-6">
           <div className="flex flex-col gap-4 text-center max-w-[560px]">
             <h1 className="font-darker-grotesque-extra-bold text-xl xl:text-4xl">
-              Gerador de Cartão de Visita
+              Gerador de Cartão de Visita Digital Grátis
             </h1>
             <h2 className="text-base">
               Crie grátis seu cartão de visita em passos rápidos! Você o insere
@@ -24,14 +24,14 @@ export default function Home() {
               src={ManPaintingImage}
               width={268}
               height={198}
-              alt="Man Painting"
+              alt="Ilustração de um homem pintando, representando criatividade."
               className="block xl:hidden"
             />
             <Image
               src={ManPaintingImage}
               width={471}
               height={347}
-              alt="Man Painting"
+              alt="Ilustração de um homem pintando, representando criatividade."
               className="hidden xl:block"
             />
             <GenerateFreeCardForm />

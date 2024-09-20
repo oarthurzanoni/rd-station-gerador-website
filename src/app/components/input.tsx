@@ -63,7 +63,9 @@ export function Input({
         errors={errors}
         name={name}
         render={({ message }) => (
-          <p className="text-left text-rd-gray-900">{message}</p>
+          <p role="alert" className="text-left text-rd-gray-900">
+            {message}
+          </p>
         )}
       />
     </div>

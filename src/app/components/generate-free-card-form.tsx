@@ -112,6 +112,8 @@ export function GenerateFreeCardForm() {
         </div>
         <Button
           text="Gerar CARTÃO Grátis"
+          aria-label="Clique para gerar seu cartão de visita gratuitamente"
+          role="button"
           disabled={isSubmitting}
           iconRight={
             <Image
