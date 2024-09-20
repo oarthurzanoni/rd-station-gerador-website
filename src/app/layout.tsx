@@ -40,7 +40,9 @@ export const metadata: Metadata = {
       "Crie gratuitamente seu cartão de visita com o Gerador de Cartão de Visita do Resultados Digitais.",
     url: "https://rd-station-gerador-website.vercel.app/",
     type: "website",
-    images: ["https://rd-station-gerador-website.vercel.app/og-image.png"],
+    images: [
+      "https://rd-station-gerador-website.vercel.app/images/og-image.jpg",
+    ],
   },
 };
 
