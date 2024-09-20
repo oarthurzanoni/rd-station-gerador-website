@@ -1,8 +1,8 @@
-import ManPaintingImage from "@/public/images/illustrations/img.png";
 import Image from "next/image";
 import { Footer } from "./components/footer";
 import { GenerateFreeCardForm } from "./components/generate-free-card-form";
 import { Header } from "./components/header";
+import ManPaintingImage from "/public/images/illustrations/img.png";
 
 export default function Home() {
   return (

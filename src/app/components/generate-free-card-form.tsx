@@ -1,7 +1,6 @@
 "use client";
 
 import { formatPhone } from "@/app/utils/format-phone";
-import ArrowRight from "@/public/images/icons/arrow-right.svg";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -9,6 +8,7 @@ import { FormProvider, useForm } from "react-hook-form";
 import { z } from "zod";
 import { Button } from "./button";
 import { Input } from "./input";
+import ArrowRight from "/public/images/icons/arrow-right.svg";
 
 const generateFreeCardFormValidationSchema = z.object({
   name: z.string().min(2, "Insira seu nome"),

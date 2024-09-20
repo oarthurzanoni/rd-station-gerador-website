@@ -1,5 +1,5 @@
-import RDStationLogo from "@/public/images/logos/logo-rd-station-default.svg";
 import Image from "next/image";
+import RDStationLogo from "/public/images/logos/logo-rd-station-default.svg";
 
 export function Header() {
   return (

@@ -3,11 +3,11 @@ import { Card } from "@/app/components/card";
 import { Footer } from "@/app/components/footer";
 import { Header } from "@/app/components/header";
 import { Link } from "@/app/components/link";
-import ArrowDown from "@/public/images/icons/arrow-down.svg";
-import ArrowRightWhite from "@/public/images/icons/arrow-right-white.svg";
-import ChevronLeft from "@/public/images/icons/chevron-left.svg";
-import ManPaintingImage from "@/public/images/illustrations/img.png";
 import Image from "next/image";
+import ArrowDown from "/public/images/icons/arrow-down.svg";
+import ArrowRightWhite from "/public/images/icons/arrow-right-white.svg";
+import ChevronLeft from "/public/images/icons/chevron-left.svg";
+import ManPaintingImage from "/public/images/illustrations/img.png";
 
 interface CardPageProps {
   searchParams: { [key: string]: string | undefined };

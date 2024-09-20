@@ -1,6 +1,6 @@
 import { formatPhone } from "@/app/utils/format-phone";
-import RDStationSymbol from "@/public/images/symbols/symbol-rd-station-default.svg";
 import Image from "next/image";
+import RDStationSymbol from "/public/images/symbols/symbol-rd-station-default.svg";
 
 interface CardProps {
   name?: string;
