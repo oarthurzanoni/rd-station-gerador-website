@@ -6,24 +6,28 @@ const nunitoSansRegular = localFont({
   src: "./fonts/nunito-sans-regular.ttf",
   variable: "--font-nunito-sans-regular",
   weight: "400",
+  display: "swap",
 });
 
 const nunitoSansBold = localFont({
   src: "./fonts/nunito-sans-bold.ttf",
   variable: "--font-nunito-sans-bold",
   weight: "700",
+  display: "swap",
 });
 
 const darkerGrotesqueBlack = localFont({
   src: "./fonts/darker-grotesque-black.ttf",
   variable: "--font-darker-grotesque-black",
   weight: "900",
+  display: "swap",
 });
 
 const darkerGrotesqueExtraBold = localFont({
   src: "./fonts/darker-grotesque-extra-bold.ttf",
   variable: "--font-darker-grotesque-extra-bold",
   weight: "800",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
